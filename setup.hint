@@ -1,0 +1,5 @@
+category: Archive Admin
+requires: libbz2_1 libgcc1 libintl8 libncursesw10 libstdc++6 zlib0 bzip2 gzip make patch perl tar xz
+sdesc: "Debian package infrastructure"
+ldesc: "This package provides the low-level infrastructure for handling 
+the installation and removal of Debian software packages."

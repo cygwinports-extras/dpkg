@@ -1,0 +1,9 @@
+DESCRIPTION="Debian package infrastructure"
+HOMEPAGE="http://wiki.debian.org/Teams/Dpkg"
+SRC_URI="mirror://debian/pool/main/d/dpkg/${PN}_${PV}.tar.bz2"
+
+CYGCONF_ARGS="
+	--without-install-info
+	--without-start-stop-daemon
+	--without-update-alternatives
+"
